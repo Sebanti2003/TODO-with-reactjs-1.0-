@@ -110,8 +110,8 @@ function App() {
      <button className='text-white bg-blue-600 px-10 w-[30%] rounded-md h-[20%]' onClick={addNew}>PLUS</button>
 
     </div> 
-      <div className='w-fit h-fit bg-blue-300 rounded-br-lg rounded-bl-lg'>
-        <div className='w-[80vw] h-fit  bg-blue-300 p-5 rounded-br-lg rounded-bl-lg flex justify-center flex-wrap'>
+      <div className='w-[100vw] h-fit bg-blue-300 rounded-br-lg rounded-bl-lg'>
+        <div className='w-[80%] h-[100%] bg-blue-300 p-5 flex justify-center flex-wrap'>
           {array.map((element, key) => (
             <Props name={element.name} age={element.age} key={key} />
           ))}
