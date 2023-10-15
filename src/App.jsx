@@ -107,7 +107,7 @@ function App() {
           onChange={(e) => settask(e.target.value)}
         />
      </div>
-     <button className='text-white bg-blue-600 px-10 w-[30%] rounded-md h-[20%] flex justify-center items-center' onClick={addNew}>PLUS</button>
+     <button className='text-white bg-blue-600 px-10 w-[30%] rounded-md h-[20%] flex justify-center items-center' onClick={addNew}><p>PLUS</p></button>
 
     </div> 
       {/* <div className='w-[90vw] mx-auto h-fit bg-blue-300 rounded-br-lg rounded-bl-lg'> */}
