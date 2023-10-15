@@ -85,9 +85,9 @@ function App() {
   return (
     <>
     <div className='flex w-screen flex-col bg-blue-500 min-h-screen justify-center items-center overflow-y-scroll'>
-    <div className='max-sm:h-[50%] max-sm:w-[90%] w-[90vw]  flex flex-col justify-between items-center bg-blue-300 rounded-tr-lg rounded-tl-lg'>
+    <div className='max-sm:h-[30vh] max-sm:w-[90%] w-[90vw] h-[30vh]    flex flex-col justify-around items-center bg-red-300 rounded-tr-lg rounded-tl-lg'>
      <h1 className='font-mono font-extrabold text-xl underline'>To do App</h1>
-     <div className='flex ml-2'>
+     <div className='flex space-x-2 ml-4'>
      <label htmlFor="namee">Enter your name:</label>
      <input
           type="text"
@@ -97,7 +97,7 @@ function App() {
           onChange={(e) => setNameInput(e.target.value)}
           />
      </div>
-     <div className='flex ml-2'>
+     <div className='flex space-x-2 ml-4'>
      <label  htmlFor="age"> Enter your Task:</label>
      <input
           type="text"
@@ -110,14 +110,14 @@ function App() {
      <button className='text-white bg-blue-600 px-10 w-[30%] rounded-md h-[20%]' onClick={addNew}>PLUS</button>
 
     </div> 
-      <div className='w-[90vw] mx-auto h-fit bg-blue-300 rounded-br-lg rounded-bl-lg'>
-        <div className='w-[80%] h-[100%] bg-blue-300 p-5 flex rounded-br-lg rounded-bl-lg justify-center flex-wrap'>
+      {/* <div className='w-[90vw] mx-auto h-fit bg-blue-300 rounded-br-lg rounded-bl-lg'> */}
+        <div className='w-[90%] h-[100%] bg-red-400 p-5 flex rounded-br-lg rounded-bl-lg justify-center flex-wrap'>
           {array.map((element, key) => (
             <Props name={element.name} age={element.age} key={key} />
           ))}
         </div>
       </div>
-    </div>
+    {/* </div> */}
    
     </>
   );
