@@ -98,7 +98,7 @@ function App() {
           />
      </div>
      <div className='flex'>
-     <label className='ml-1' htmlFor="age"> Enter your Task:</label>
+     <label  htmlFor="age"> Enter your Task:</label>
      <input
           type="text"
           name="age"
