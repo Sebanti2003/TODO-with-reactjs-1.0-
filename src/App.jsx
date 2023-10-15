@@ -88,7 +88,7 @@ function App() {
     <div className='max-sm:h-[30vh] max-sm:w-[90%] w-[90vw] h-[30vh]    flex flex-col justify-around items-center bg-red-300 rounded-tr-lg rounded-tl-lg'>
      <h1 className='font-mono font-extrabold text-xl underline'>To do App</h1>
      <div className='flex space-x-2 ml-4'>
-     <label htmlFor="namee">Enter your name:</label>
+     <label htmlFor="namee">Enter Title of the task:</label>
      <input
           type="text"
           className='input'
@@ -98,7 +98,7 @@ function App() {
           />
      </div>
      <div className='flex space-x-2 ml-4'>
-     <label  htmlFor="age"> Enter your Task:</label>
+     <label  htmlFor="age"> Enter Description:</label>
      <input
           type="text"
           name="age"
