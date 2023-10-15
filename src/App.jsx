@@ -85,7 +85,7 @@ function App() {
   return (
     <>
     <div className='flex w-screen flex-col bg-blue-500 min-h-screen justify-center items-center overflow-y-scroll'>
-    <div className='max-sm:h-[30vh] max-sm:w-[90%] w-[90vw] h-[30vh] min-h-fit pr-1    flex flex-col justify-around items-center bg-red-300 rounded-tr-lg rounded-tl-lg'>
+    <div className='max-sm:h-[30vh] max-sm:w-[90%] w-[90vw] h-[30vh] min-h-fit pr-3 flex flex-col justify-around items-center bg-red-300 rounded-tr-lg rounded-tl-lg'>
      <h1 className='font-mono font-extrabold text-xl underline'>To do App</h1>
      <div className='flex space-x-2 ml-4'>
      <label htmlFor="namee">Enter Title of the task:</label>
