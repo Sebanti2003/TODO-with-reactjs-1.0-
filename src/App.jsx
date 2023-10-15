@@ -84,8 +84,8 @@ function App() {
   };
   return (
     <>
-    <div className='flex flex-col bg-blue-500 min-h-screen justify-center items-center overflow-y-scroll'>
-    <div className='w-[80vw] h-40  flex flex-col justify-between items-center bg-blue-300 rounded-tr-lg rounded-tl-lg'>
+    <div className='flex w-screen flex-col bg-blue-500 min-h-screen justify-center items-center overflow-y-scroll'>
+    <div className='max-sm:h-[50%] max-sm:w-[80%] w-[80vw] h-40  flex flex-col justify-between items-center bg-blue-300 rounded-tr-lg rounded-tl-lg'>
      <h1 className='font-mono font-extrabold text-xl underline'>To do App</h1>
      <div className='flex gap-4'>
      <label htmlFor="namee">Enter your name:</label>
