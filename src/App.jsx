@@ -111,7 +111,7 @@ function App() {
 
     </div> 
       <div className='w-[90vw] mx-auto h-fit bg-blue-300 rounded-br-lg rounded-bl-lg'>
-        <div className='w-[80%] h-[100%] bg-blue-300 p-5 flex justify-center flex-wrap'>
+        <div className='w-[80%] h-[100%] bg-blue-300 p-5 flex rounded-br-lg rounded-bl-lg justify-center flex-wrap'>
           {array.map((element, key) => (
             <Props name={element.name} age={element.age} key={key} />
           ))}
